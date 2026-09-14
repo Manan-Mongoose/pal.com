@@ -1,0 +1,38 @@
+.startMsg{
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: block;
+}
+.startMsg.hide{
+    display: none;
+}
+.logIn{
+    font-size: 25px;
+    color: #000000;
+    left: 94%;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 5px
+}
+.signUp{
+    font-size: 25px;
+    color: #000000;
+    left: 87%;
+    position: absolute;
+    background-color: #F2D116;
+    border-radius: 5px
+}
+.highlight{
+    border-radius: 5px;
+    background-color: #F2D116;
+}
+.signUpForm{
+    display: none;
+}
+.signUpForm.show{
+    display: block;
+}
