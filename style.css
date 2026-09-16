@@ -1,0 +1,95 @@
+.startMsg{
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: block;
+}
+.startMsg.hide{
+    display: none;
+}
+.logIn{
+    font-size: 25px;
+    color: #000000;
+    left: 93%;
+    top: 1%;
+    position: fixed;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    width: 6rem;
+    cursor: pointer;
+}
+.signUp{
+    font-size: 25px;
+    color: #000000;
+    left: 85%;
+    top: 1%;
+    position: fixed;
+    background-color: #F2D116;
+    border-radius: 10px;
+    border: none;
+    width: 7rem;
+    cursor: pointer;
+}
+.highlight{
+    border-radius: 10px;
+    background-color: #F2D116;
+}
+.signUpForm{
+    display: none;
+    border-radius: 10px;
+}
+.signUpForm.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 300px;
+    height: 190px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translateX(-50%);
+    transform: scale(2);
+    border: 1px solid grey;
+}
+.usernameInp{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.emailInp{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.passwordInp{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.confirmPasswordInp{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.submit{
+    font-family: 'Nunito', sans-sarif;
+    background-color: #F2D116;
+    border: 1px solid #cfb108;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.accountCreationSuccess{
+    display: none;
+}
+.accountCreationSuccess.ok{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+}
+.accountCreationSucces.failed{
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+}
